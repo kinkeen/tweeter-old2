@@ -3,9 +3,10 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
-html {
+ html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -15,9 +16,29 @@ html {
  */
 
 body {
+  font-family:"Source Sans Pro", sans-serif;
+  /*font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;*/
+
   color: #545149;
-  background-color: #f4f1ec;
+  background-color: #f8f4ec;
   font-size: 24px;
+}
+
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+ nav {
+  font-family: 'Bungee', cursive;
+ }
+
+ .container{
+  width: 90%;
+  background-color:  #f8f4ec;
+
 }
 
 /*

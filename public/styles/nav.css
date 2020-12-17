@@ -1,0 +1,14 @@
+nav {
+    list-style-type: none;
+    color: #FFFFFF;
+    padding: 1.5em;
+    background-color: #495cbd;
+    height: 120px;
+    font-family: 'Bungee', cursive;
+    top: 0;
+    width: 100%;
+}
+
+
+/*font-family: 'Bungee Hairline', cursive;
+font-family: 'Source Sans Pro', sans-serif;*/
